@@ -1,0 +1,43 @@
+
+[
+  {
+    "content": "First post",
+    "user": {
+      "name": "Luke"
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Leia"
+        },
+        "content": "First comment"
+      },
+      {
+        "user": {
+          "name": "Leia"
+        },
+        "content": "Second comment"
+      },
+    ]
+  },
+  {
+    "content": "Second post",
+    "user": {
+      "name": "Darth Vader"
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Boba Fett"
+        },
+        "content": "Third comment"
+      },
+      {
+        "user": {
+          "name": "Jabba"
+        },
+        "content": "Fourth comment"
+      },
+    ]
+  }
+]
