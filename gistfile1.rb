@@ -10,6 +10,7 @@ class Post < ApplicationRecord
   #  user_id              :integer
   #  title                :string(50)       default("")
   #  content              :text             default("")
+  #  created_at           :datetime
 end
 
 class Comment < ApplicationRecord
@@ -20,6 +21,7 @@ class Comment < ApplicationRecord
   #  user_id              :integer
   #  post_id              :integer
   #  content              :text             default("")
+  #  created_at           :datetime
 end
 
 class NewsfeedController < ApplicationController
