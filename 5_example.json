@@ -1,19 +1,25 @@
 
 [
   {
+    "type": "Post",
     "content": "First post",
     "user": {
+      "type": "User",
       "name": "Luke"
     },
     "comments": [
       {
+        "type": "Comment",
         "user": {
+          "type": "User",
           "name": "Leia"
         },
         "content": "First comment"
       },
       {
+        "type": "Comment",
         "user": {
+          "type": "User",
           "name": "Han"
         },
         "content": "Second comment"
@@ -21,19 +27,25 @@
     ]
   },
   {
+    "type": "Post",
     "content": "Second post",
     "user": {
+      "type": "User",
       "name": "Darth Vader"
     },
     "comments": [
       {
+        "type": "Comment",
         "user": {
+          "type": "User",
           "name": "Boba Fett"
         },
         "content": "Third comment"
       },
       {
+        "type": "Comment",
         "user": {
+          "type": "User",
           "name": "Jabba"
         },
         "content": "Fourth comment"
