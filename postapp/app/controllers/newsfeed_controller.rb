@@ -4,7 +4,7 @@ class NewsfeedController < ApplicationController
   # (the author of the Post), and an array of Comments. Each Comment
   # will also include the User object of the Comment's author.
   def show
-    @posts = Post.all.order(:created_at).includes(:user, comments: [:user])
+    @posts = Post.all.order(created_at: :desc).includes(:user, comments: [:user])
     render :json => @posts
   end
 end
